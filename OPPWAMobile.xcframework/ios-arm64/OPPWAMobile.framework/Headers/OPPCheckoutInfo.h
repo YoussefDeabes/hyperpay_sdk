@@ -1,13 +1,4 @@
-//
-// Copyright (c) $$year$$ by ACI Worldwide, Inc.
-// All rights reserved.
-//
-// This software is the confidential and proprietary information
-// of ACI Worldwide Inc ("Confidential Information"). You shall
-// not disclose such Confidential Information and shall use it
-// only in accordance with the terms of the license agreement
-// you entered with ACI Worldwide Inc.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #import <Foundation/Foundation.h>
 #import "OPPThreeDS2Info.h"
@@ -78,6 +69,9 @@ NS_ASSUME_NONNULL_BEGIN
  @return Returns an `OPPCheckoutInfo` object, or `nil` if JSON is invalid.
  */
 + (nullable instancetype)checkoutInfoFromJSON:(NSDictionary *)JSON error:(NSError * _Nullable *)error;
+
+/// :nodoc:
+- (BOOL)isRegistrationOnly;
 
 @end
 NS_ASSUME_NONNULL_END

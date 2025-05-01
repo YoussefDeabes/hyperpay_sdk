@@ -1,13 +1,4 @@
-//
-// Copyright (c) $$year$$ by ACI Worldwide, Inc.
-// All rights reserved.
-//
-// This software is the confidential and proprietary information
-// of ACI Worldwide Inc ("Confidential Information"). You shall
-// not disclose such Confidential Information and shall use it
-// only in accordance with the terms of the license agreement
-// you entered with ACI Worldwide Inc.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #import <Foundation/Foundation.h>
 #import <PassKit/PassKit.h>
@@ -20,6 +11,7 @@
 @class OPPWpwlOptions;
 @class OPPMBWayConfig;
 @class OPPAfterpayConfig;
+@class OPPAmazonPayConfig;
 
 /// An enumeration for the possible store payment details modes.
 typedef NS_ENUM(NSInteger, OPPCheckoutStorePaymentDetailsMode) {
@@ -258,6 +250,11 @@ A flag that enable/disable OTP field to be presented on the Payment Details for 
  The configuration for AFTERPAY_PACIFIC payment method if it is set.
  */
 @property (nonatomic, strong, nullable) OPPAfterpayConfig *afterpayConfig;
+
+/**
+ The configuration for AmazonPay payment method if it is set.
+ */
+@property (nonatomic, strong, nullable) OPPAmazonPayConfig *amazonPayConfig;
 
 /**
 The payment parameters for IDEAL 2.0 payment brand.

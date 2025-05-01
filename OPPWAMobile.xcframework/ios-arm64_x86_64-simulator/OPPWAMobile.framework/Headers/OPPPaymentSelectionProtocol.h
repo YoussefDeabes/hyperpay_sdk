@@ -1,14 +1,4 @@
-//
-// Copyright (c) $$year$$ by ACI Worldwide, Inc.
-// © Copyright ACI Worldwide, Inc. 2018,2023
-// All rights reserved.
-//
-// This software is the confidential and proprietary information
-// of ACI Worldwide Inc ("Confidential Information"). You shall
-// not disclose such Confidential Information and shall use it
-// only in accordance with the terms of the license agreement
-// you entered with ACI Worldwide Inc.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #import <Foundation/Foundation.h>
 #import <UIkit/UIkit.h>
@@ -16,6 +6,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// :nodoc:
 @protocol OPPPaymentSchemeSelectionActionDelegate <NSObject>
 - (void)viewControllerDidLoaded;
 - (void)paymentSelectionControllerDidCancel;
@@ -25,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
                                completionHandler:(nullable void (^)(BOOL success))completionHandler;
 @end
 
+/// :nodoc:
 @protocol OPPPaymentSelectionDataSource <NSObject>
 - (void)paymentSelectionControllerPaymentBrands:(nonnull NSArray<NSString *> *)paymentBrands;
 - (void)paymentSelectionControllerCardTokens:(nonnull NSArray<OPPToken *> *)cardTokens;

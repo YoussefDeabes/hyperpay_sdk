@@ -1,10 +1,4 @@
-//
-//  OPPCashAppPayProcessor.h
-//  OPPWAMobile
-//
-//  Created by Dalvi, Vikas on 12/08/24.
-//  Copyright © 2024 ACI Worldwide. All rights reserved.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #import <Foundation/Foundation.h>
 #import "OPPTransaction.h"

@@ -1,10 +1,4 @@
-//
-//  OPPErrors+Private.h
-//  OPPWAMobile
-//
-//  Created by Teploukhova, Alisa on 30/08/16.
-//  Copyright © 2017 ACI Worldwide. All rights reserved.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #import "OPPErrors.h"
 

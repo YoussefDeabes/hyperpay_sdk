@@ -1,10 +1,4 @@
-//
-//  OPPPaymentParams+Brand.h
-//  OPPWAMobile
-//
-//  Created by Teploukhova, Alisa on 08/11/16.
-//  Copyright © 2017 ACI Worldwide. All rights reserved.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #import "OPPPaymentParams.h"
 

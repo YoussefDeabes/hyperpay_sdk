@@ -1,10 +1,4 @@
-//
-//  Header.h
-//  OPPWAMobile
-//
-//  Created by Samalov, Artem on 3/20/17.
-//  Copyright © 2017 ACI Worldwide. All rights reserved.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #ifndef Header_h
 #define Header_h
@@ -75,5 +69,6 @@ extern OPPPaymentBrand const OPPPaymentBrandYandex;
 extern OPPPaymentBrand const OPPPaymentBrandYandexCheckout;
 extern OPPPaymentBrand const OPPPaymentBrandGenericCard;
 extern OPPPaymentBrand const OPPPaymentBrandAmazonPay;
+extern OPPPaymentBrand const OPPPaymentBrandMobilePay;
 
 #endif /* OPPPaymentBrand */

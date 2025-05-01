@@ -1,13 +1,4 @@
-//
-// Copyright (c) $$year$$ by ACI Worldwide, Inc.
-// All rights reserved.
-//
-// This software is the confidential and proprietary information
-// of ACI Worldwide Inc ("Confidential Information"). You shall
-// not disclose such Confidential Information and shall use it
-// only in accordance with the terms of the license agreement
-// you entered with ACI Worldwide Inc.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #import <Foundation/Foundation.h>
 
@@ -139,6 +130,9 @@ typedef NS_ENUM(NSInteger, OPPErrorCode) {
     
     /// AmazonPay Payments specific error.
     OPPErrorCodeAmazonPay = 5009,
+    
+    /// MobilePay Link specific error.
+    OPPErrorCodeMobilePayLink = 5010,
 
     /// 3-D Secure 2 transaction error.
     OPPErrorCodeThreeDS2Failure = 6000,
@@ -252,6 +246,9 @@ typedef NS_ENUM(NSInteger, OPPErrorCode) {
  
  ###AmazonPay errors:
  - 5009: AmazonPay specific error.
+ 
+ ###MobilePay errors:
+ - 5010: MobilePay specific error.
  
  ###3-D Secure 2 errors:
  - 6000: 3-D Secure 2 transaction error.

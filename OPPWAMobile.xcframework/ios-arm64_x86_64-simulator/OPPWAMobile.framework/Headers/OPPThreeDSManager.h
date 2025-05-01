@@ -1,13 +1,4 @@
-//
-// Copyright (c) $$year$$ by ACI Worldwide, Inc.
-// All rights reserved.
-//
-// This software is the confidential and proprietary information
-// of ACI Worldwide Inc ("Confidential Information"). You shall
-// not disclose such Confidential Information and shall use it
-// only in accordance with the terms of the license agreement
-// you entered with ACI Worldwide Inc.
-//
+//  © Copyright ACI Worldwide, Inc. 2018, 2025
 
 #import "OPPPaymentParams.h"
 
@@ -17,12 +8,12 @@
 @class OPPPaymentProvider;
 
 /// :nodoc:
-
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^ProviderResultCallback) (OPPTransaction * _Nullable transaction,
                                         NSError * _Nullable error);
 
+/// :nodoc:
 @interface OPPThreeDSManager : NSObject
 
 - (instancetype)init NS_UNAVAILABLE;
@@ -42,7 +33,7 @@ typedef void (^ProviderResultCallback) (OPPTransaction * _Nullable transaction,
 
 - (void)addWebThreeDSParamsToPaymentParams:(nonnull OPPPaymentParams *)params
                            paymentProvider:(nonnull OPPPaymentProvider *)provider
-                                completion:(void (^)(void))completion ;
+                                completion:(void (^)(void))completion;
 @end
 
 NS_ASSUME_NONNULL_END
